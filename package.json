@@ -1,0 +1,27 @@
+{
+    "name": "blog-api",
+    "version": "1.0.0",
+    "description": "Simple Blog API",
+    "main": "server.js",
+    "scripts": {
+        "start": "NODE_ENV=production node server",
+        "dev": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/2exabytes/blog-api.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/2exabytes/blog-api/issues"
+    },
+    "homepage": "https://github.com/2exabytes/blog-api#readme",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
